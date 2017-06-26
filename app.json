@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/classify/index",
+    "pages/cart/index",
+    "pages/user/index",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +11,30 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#eb4f38",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
 }
