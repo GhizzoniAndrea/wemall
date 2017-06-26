@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/splash/splash",
     "pages/index/index",
     "pages/classify/index",
     "pages/cart/index",
@@ -9,12 +10,12 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Wemall",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
     "color": "black",
-    "selectedColor": "#eb4f38",
+    "selectedColor": "#ff0000",
     "borderStyle": "white",
     "backgroundColor": "white",
     "list": [
